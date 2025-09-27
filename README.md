@@ -37,3 +37,7 @@ Json para Consumo de API's
   "valor": -200.00,
   "tipoMovimiento": "RETIRO"
 }  
+
+Para el consumo del reporte Solicitado es de la siguiente manera:
+http://localhost:8080/api/reportes?clienteId=#ClienteId&desde=#FechasDesde&hasta=#FechaHasta
+http://localhost:8080/api/reportes?clienteId=CLI001&desde=2025-09-01&hasta=2025-09-26
